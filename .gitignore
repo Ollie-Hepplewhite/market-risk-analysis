@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Data outputs (optional – keep repo clean)
+data/
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db
