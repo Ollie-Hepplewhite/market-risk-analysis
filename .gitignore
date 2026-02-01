@@ -1,15 +1,15 @@
-# Python
+# Ignore generated data
+data/*
+outputs/*
+
+# Keep folder structure
+!data/.gitkeep
+!outputs/.gitkeep
+
+# Python cache
 __pycache__/
 *.pyc
 
-# Virtual environments
-.venv/
-venv/
-
-# Data outputs (optional – keep repo clean)
-data/
-outputs/
-
-# OS
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.venv
