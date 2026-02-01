@@ -1,15 +1,10 @@
-# Ignore generated data
-data/*
+# Ignore raw data downloads
+data/*.csv
+
+# Ignore regenerated outputs by default
 outputs/*
 
-# Keep folder structure
-!data/.gitkeep
-!outputs/.gitkeep
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Environment
-.env
-.venv
+# Keep selected showcase outputs
+!outputs/equity_curves.png
+!outputs/drawdowns.png
+!outputs/rolling_correlation_vs_sp500.png
